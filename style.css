@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Noto Sans;
+}
+
+table{
+
+    border-collapse: collapse;
+    color: white;
+    background: rgb(158, 65, 135);
+    font-size:28px;
+    
+}
+
+.first-column {
+    width: 400px;
+} 
+
+th, td {
+    border: 3px solid white;
+    padding:20px;
+    text-align: left;
+    width: 260px;
+    height: 32px;
+    
+}
+
+th {
+    background: rgb(119, 5, 114)
+}
+
+tr:nth-of-type(2n) {
+    background: rgb(252, 118, 185);
+}
